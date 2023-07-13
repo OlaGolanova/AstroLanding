@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://OlaGolanova.github.io/Astro",
+  "homepage": "https://OlaGolanova.github.io/AstroLanding",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OlaGolanova/Astro.git"
+    "url": "git+https://github.com/OlaGolanova/AstroLanding.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OlaGolanova/Astro/issues"
+    "url": "https://github.com/OlaGolanova/AstroLanding/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.29.1",

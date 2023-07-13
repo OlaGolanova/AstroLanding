@@ -100,6 +100,7 @@ function watchFiles(done){
 
 
 gulp.task('default', gulp.parallel(server, watchFiles));
+
 function deploy(cb) {
     ghPages.publish(path.join(process.cwd(), './src'), cb);
 }
