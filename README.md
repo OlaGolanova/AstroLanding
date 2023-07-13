@@ -4,7 +4,7 @@
 - адаптивная верстка (flexbox, медиа-запросы).
 
 ## Демо
-olagolanova.github.io/AstroLanding/
+https://OlaGolanova.github.io/AstroLanding
 
 ...проект в работе...
 
