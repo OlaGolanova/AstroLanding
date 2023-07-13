@@ -1,0 +1,123 @@
+.promo {
+    position: relative;
+    min-height: 813px;
+    padding: 202px 0 105px 0;
+    background:#000 url(../img/promo/bgStars.png) repeat top center;
+    z-index: 0;
+    overflow: hidden;
+    &__stars {
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            background-image: url(../img/promo/twinkling.png);
+            animation: 4s twinkle infinite;
+            animation-timing-function: linear;
+            z-index: -1;
+
+        }
+    &__star {
+        position:absolute;
+        display: block;
+        animation-name: star_pulse;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite; 
+        z-index:-1;
+    }
+    &__star_top {
+        top: 117px;
+        left: 687px;
+    }
+    &__star_left {
+        top: 356px;
+        left: 478px;
+    }
+    &__star_right {
+        top: 255px;
+        right: 454px;
+    }
+  
+    &__planet_pink {
+        position:absolute;
+        display: block;
+        width: 29vw;
+        top: 136px;
+        z-index:-1;
+        // left: -200px;
+        left: -40px;
+        opacity: 0;
+    }
+    &__planet_blue {
+        position:absolute;
+        display: block;
+        width: 29vw;
+        top: 136px;
+        z-index:-1;
+        // right: -200px;
+        right: -40px;
+        opacity: 0;
+    }
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        width: 130px;
+        opacity: 0;
+      
+    }
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 18vw;
+        margin-right: 18vw;
+        h1 {
+            margin: 0;
+            margin-top: 60px;
+            font-family: Palatino;
+            font-size: 48px;
+            line-height: 60px;
+            color: #fff;
+            text-transform: uppercase;
+            opacity: 0;
+        }
+        &-subtitle {
+            margin-top: 25px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: $title-color;
+            opacity: 0;
+        } 
+    }
+    &__vector{
+        display: block;
+        width: 90px;
+        margin: 70px auto 0 auto;
+        opacity: 0;
+    }
+}
+
+
+  @keyframes twinkle {
+    100% {
+        background-position: -100px 0
+    }
+  }
+ 
+
+ @keyframes star_pulse {
+    0% {
+        transform: scale(0.2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.2);
+    }
+}
+

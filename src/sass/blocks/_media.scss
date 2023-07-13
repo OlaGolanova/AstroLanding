@@ -1,0 +1,355 @@
+
+@media(max-width: 1300px) {
+    .promo {
+        padding: 205px 0px 111px 0px;
+        &__planet_pink {
+            width: 40vw;
+            top: 124px;
+            left: -300px;
+        }
+        &__planet_blue {
+            width: 40vw;
+            top: 124px;
+            right: -300px;
+        }
+        &__descr {
+            h1 {
+                font-size: 36px;
+            }
+       }
+   }
+    .main {
+        padding: 80px 0 27px 0;
+            &__service {
+                align-items:center;
+                padding: 30px 36px 30px 36px;
+                width: 300px;
+                height: 270px;
+                &:hover {
+                    height: 330px;
+                }
+                &-wrapper {
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+    
+                }
+                &-price {
+                    margin-right: 70px;
+                }
+            }
+            &__service-wrap {
+                height: 380px;
+            }
+            &__title_margintop-reviews {
+                margin-top: 60px;
+            }
+            &__vector {
+                margin-top: 60px;
+            }
+           
+            &__reviews-card {
+                width: 470px;
+                height: 318px;
+                &:first-child {
+                    margin-right: 20px;
+                }
+            }
+        }
+        footer {
+            & .wrapper {
+                flex-direction: column-reverse;
+            }
+            & .callback {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+    }
+}
+
+@media(max-width: 1024px) {
+    .promo {
+  
+        &__planet_pink {
+            width: 50vw;
+        }
+        &__planet_blue {
+            width: 50vw;
+        }
+    }
+  
+    .about {
+        padding: 60px 30px 48px 30px;
+        &__text-wrapper {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: start;
+        }
+        &__text {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            width: 100%;
+            margin: 0;
+            &-sub {
+                margin-right: 159px;
+                width: 25%;
+            }
+            &-info {
+                width: 75%;
+            }
+        }
+        &__foto {
+            margin-top: 60px;
+            width: 100%;
+            background: url("../img/about/photoMobile.jpg") center (center/cover) no-repeat;
+        }
+        
+    }
+    
+}
+@media(max-width: 940px) {
+    .promo {
+        padding: 205px 0px 111px 0px;
+        &__planet_pink {
+            width: 50vw;
+            left: -250px;
+        }
+        &__planet_blue {
+            width: 50vw;
+            right: -250px;
+        }
+        &__descr {
+            h1 {
+                font-size: 36px;
+            }
+       }
+   }
+    .main {
+        &__bg-ring {
+            background: url("../icons/zodiacring.svg") center (center/cover) no-repeat;
+        }
+        &__wrapper {
+            min-height: 750px;
+        }
+        &__service-wrap {
+            margin-top: 0px;
+        }
+        &__service{
+            margin-top: 60px;
+            &:hover {
+                height: 270px;
+            }
+        }
+        &__reviews-card {
+            &:first-child {
+                margin-right: 0px;
+            }
+        }
+        &__separator {
+            width: 80%;
+        }
+        
+    }
+    .about {
+        &__text {
+            &-sub {
+                margin-right: 129px;
+                width: 30%;
+            }
+            &-info {
+                width: 70%;
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 768px){
+    .promo {
+        &__descr {
+            margin-left: 10vw;
+            margin-right: 10vw;
+       }
+    }
+    .about {
+        &__text {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            &-sub {
+               margin-top: 26px;
+               width: 100%;
+            }
+            &-info {
+                width: 100%;
+            }
+             & p {
+                margin-top: 20px;
+            }
+        }
+        
+    }
+}
+
+@media(max-width: 640px){
+    header {
+        .nav {
+            &__link {
+                margin-right: 35px;
+            } 
+        } 
+    }
+    .promo {
+        &__planet_pink {
+            width: 45vw;
+            left: -150px;
+        }
+        &__planet_blue {
+            width: 45vw;
+            right: -150px;
+        }
+   }
+    .main {
+        padding: 51px 10px 54px 10px;
+        &__wrapper {
+            height: 80vh;
+        }
+        &__service {
+            padding: 40px 20px 20px 20px;
+            margin: 30px 0 0 0;
+            width: 470px;
+            &-wrapper {
+                margin-top: 62px;
+                display: flex;
+                justify-content: space-between;
+            }
+            &-price {
+                margin-right: 150px;
+            }
+            &-subtitle {
+                font-size: 18px;
+            }
+        }
+    }
+    footer {
+
+        & .contacts {
+            padding-bottom: 20px;
+            margin-top: 0;
+            max-width: 420px;
+            &-wrap {
+                flex-direction: column;
+                 max-width: 419px;
+                & a {
+                    &:first-child {
+                        margin-top: 33px;
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+        }
+        .callback {
+            width: 419px;
+            height: 238px;
+            padding: 20px 0 0 20px;
+            & form {
+                & #submit {
+                        max-width: 379px;
+                        height: 54px;    
+                   }
+                & #inputPhone {
+                    max-width: 379px; 
+                }
+            }
+        }
+    }
+}
+
+
+
+@media(max-width: 470px) {
+    header {
+        .nav {
+            &__link {
+                margin-right: 20px;
+            } 
+        } 
+    }
+    .promo {
+        padding: 147px 0px 94px 0px;
+        &__planet_pink {
+            left: -100px;
+        }
+        &__planet_blue {
+            right: -100px;
+        }
+        &__descr {
+            h1 {
+                margin-top: 140px;
+                font-size: 30px;
+            }
+       }
+   }
+
+    .main {
+        &__service {
+            width: 100%;
+        &-price {
+            margin-right: 50px;
+         }
+    }
+  }
+}
+
+@media(max-width: 376px) {
+    header {
+        .nav {
+            &__link {
+                margin-right: 15px;
+            } 
+        } 
+    }
+    .promo {
+        padding: 125px 0px 89px 0px;
+        &__planet_pink {
+            width: 55vw;
+            left: -120px;
+        }
+        &__planet_blue {
+            width: 55vw;
+            right: -120px;
+        }
+        .promo {
+            &__descr {
+                & h1 {
+                    margin-top: 144px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    footer {
+        & .contacts {
+            max-width: 312px;
+            &-wrap {
+                 max-width: 312px;
+            }
+            &-prod {
+                bottom:-55px;
+                right: 30px;
+            }
+        }
+        .callback {
+            width: 312px;
+            & form {
+                & #submit {
+                        max-width: 272px;   
+                   }
+                & #inputPhone {
+                    max-width: 272px; 
+                }
+            }
+        }
+    }
+}
