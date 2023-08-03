@@ -6,10 +6,10 @@ window.addEventListener('DOMContentLoaded', () => {
     animation();
     rotate();
     main();
-    window.addEventListener('resize', () => {
-        fix100vh();
-        findHeight();
-    })
+    // window.addEventListener('resize', () => {
+    //     fix100vh();
+    //     findHeight();
+    // })
 });
 function fix100vh() {
     let vh = window.innerHeight * 0.01;
