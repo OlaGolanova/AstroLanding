@@ -181,8 +181,16 @@
             cursor: pointer;
         }
     }
+    &__reviews-wrap-title {
+        display: flex;
+    }
+    &__reviews-img {
+        width: 15%;
+        margin-right: 5%;
+    }
     &__reviews-name {
         color:$title-color;
+        margin-top: 20px;
         font-size: 15px;
         font-weight: 400px;
 
@@ -196,7 +204,6 @@
     }
     &__reviews {
         overflow: hidden;
-        margin-top: 16px;
         color:#000000;
         font-size: 18px;
         font-weight: 400px;
@@ -243,7 +250,15 @@
             height: 11px;
             background: url("../icons/VectorWhite.svg") center  no-repeat;
         }
-
     }
+    &__vector-right-reviews:hover {
+        cursor: pointer;
+    }
+    &__vector-left-reviews {
+        cursor: pointer;
+    }
+}
+.hidden {
+    display: none;
 }
 
