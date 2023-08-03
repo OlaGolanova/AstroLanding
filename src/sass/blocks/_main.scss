@@ -257,8 +257,9 @@
     &__vector-left-reviews {
         cursor: pointer;
     }
+    &__hidden {
+        display: none;
+    }
 }
-.hidden {
-    display: none;
-}
+
 
