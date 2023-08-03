@@ -6,17 +6,17 @@ function main(){
 
         btnNextReviewsRight.addEventListener('click', function(){
             console.log(1);
-            swiperSlideOne.classList.add('hidden');
-            btnNextReviewsRight.classList.add('hidden'); 
-            btnNextReviewsLeft.classList.remove('hidden');
-            swiperSlideTwo.classList.remove('hidden');
+            swiperSlideOne.classList.add('main__hidden');
+            btnNextReviewsRight.classList.add('main__hidden'); 
+            btnNextReviewsLeft.classList.remove('main__hidden');
+            swiperSlideTwo.classList.remove('main__hidden');
         });
         btnNextReviewsLeft.addEventListener('click', function(){
             console.log(1);
-            swiperSlideTwo.classList.add('hidden');
-            btnNextReviewsLeft.classList.add('hidden'); 
-            btnNextReviewsRight.classList.remove('hidden');
-            swiperSlideOne.classList.remove('hidden');
+            swiperSlideTwo.classList.add('main__hidden');
+            btnNextReviewsLeft.classList.add('main__hidden'); 
+            btnNextReviewsRight.classList.remove('main__hidden');
+            swiperSlideOne.classList.remove('main__hidden');
         });
         
 
