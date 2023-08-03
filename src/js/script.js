@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // findHeight();
     animation();
     rotate();
+    main();
     window.addEventListener('resize', () => {
         fix100vh();
         findHeight();
