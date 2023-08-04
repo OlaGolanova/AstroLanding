@@ -22,9 +22,10 @@
         padding: 80px 0 27px 0;
             &__service {
                 align-items:center;
-                padding: 30px 36px 30px 36px;
+                padding: 0 20px 0px 20px;
                 width: 300px;
-                height: 270px;
+                // height: 270px;
+             
                 &:hover {
                     height: 330px;
                 }
@@ -131,7 +132,7 @@
             background: url("../icons/zodiacring.svg") center (center/cover) no-repeat;
         }
         &__wrapper {
-            min-height: 750px;
+            // min-height: 750px;
         }
         &__service-wrap {
             margin-top: 0px;
@@ -149,6 +150,12 @@
         }
         &__separator {
             width: 80%;
+        }
+        .swiper-laptop {
+            display: none;
+        }
+        .swiper-tablet {
+            display: block;
         }
         
     }
@@ -214,12 +221,15 @@
     .main {
         padding: 51px 10px 54px 10px;
         &__wrapper {
-            height: 18vh;
+            min-height: 76vh;
         }
         &__service {
             padding: 40px 20px 20px 20px;
-            margin: 30px 0 0 0;
+            margin: 30px 15px 0 15px;
             width: 470px;
+            &:last-child {
+                margin-right: 15px;
+            }
             &-wrapper {
                 margin-top: 62px;
                 display: flex;
@@ -232,6 +242,7 @@
                 font-size: 18px;
             }
         }
+       
     }
     footer {
 
@@ -296,10 +307,20 @@
     .main {
         &__service {
             width: 100%;
+            &:last-child {
+                margin-right: 15px;
+            }
         &-price {
             margin-right: 50px;
          }
     }
+        &__reviews-card {
+            margin-right: 15px;
+            margin-left: 15px;
+           &:first-child {
+            margin-right: 15px;
+           }
+        }
   }
 }
 
