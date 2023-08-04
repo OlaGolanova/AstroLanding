@@ -140,7 +140,7 @@
         &__service{
             margin-top: 60px;
             &:hover {
-                height: 270px;
+                height: 298px;
             }
         }
         &__reviews-card {
@@ -192,7 +192,7 @@
             &-info {
                 width: 100%;
             }
-             & p {
+            & p {
                 margin-top: 20px;
             }
         }
@@ -221,7 +221,7 @@
     .main {
         padding: 51px 10px 54px 10px;
         &__wrapper {
-            min-height: 76vh;
+            height: 100vh;
         }
         &__service {
             padding: 40px 20px 20px 20px;
