@@ -30,10 +30,9 @@
         margin-top: 116px;
     }
     &__wrapper {
-        // position: relative;
         display: flex;
         justify-content: center;
-        height: 413px;
+        min-height: 413px;
     }
     &__service-wrap {
         // position: relative;
@@ -62,7 +61,7 @@
         }
         &:hover {
             cursor: pointer;
-            height: 413px;
+            height: 370px;
         }
         &::before {
             content: "";
@@ -181,6 +180,10 @@
             cursor: pointer;
         }
     }
+    &__reviews-vector {
+        position: relative;
+        
+    }
     &__reviews-wrap-title {
         display: flex;
     }
@@ -215,15 +218,15 @@
         font-weight: 400px;
     }
     &__reviews-descr {
+        position: relative;
         margin-top: 36px;
         padding: 0px 40px 0 40px;
-        display: flex;
-        justify-content:space-between;
 
     }
     &__reviews-add {
         position: relative;
         display: flex;
+        margin-top: 40px;
         color:#fff;
         font-size: 14px;
         font-weight: 700px;
@@ -231,6 +234,14 @@
         letter-spacing: 2px;
         &:hover {
             cursor: pointer;
+            &::after {
+                cursor: pointer;
+                transform: translateX(10px);
+            }
+            &::before {
+                cursor: pointer;
+                transform: translateX(10px);
+            }
         }
         &::after {
             content: "";
@@ -240,6 +251,7 @@
             width: 7px;
             height: 11px;
             background: url("../icons/VectorWhite.svg") center  no-repeat;
+            transition: all 1s;
         }
         &::before {
             content: "";
@@ -249,17 +261,13 @@
             width: 7px;
             height: 11px;
             background: url("../icons/VectorWhite.svg") center  no-repeat;
+            transition: all 1s;
+        }
+        &-wrap {
+            display: flex;
         }
     }
-    &__vector-right-reviews:hover {
-        cursor: pointer;
-    }
-    &__vector-left-reviews {
-        cursor: pointer;
-    }
-    &__hidden {
-        display: none;
-    }
+
 }
 
 
