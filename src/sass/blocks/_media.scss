@@ -126,6 +126,7 @@
        }
    }
     .main {
+        padding-bottom: 60px;
         &__bg-ring {
             background: url("../icons/zodiacring.svg") center (center/cover) no-repeat;
         }
@@ -213,7 +214,7 @@
     .main {
         padding: 51px 10px 54px 10px;
         &__wrapper {
-            height: 80vh;
+            height: 18vh;
         }
         &__service {
             padding: 40px 20px 20px 20px;
