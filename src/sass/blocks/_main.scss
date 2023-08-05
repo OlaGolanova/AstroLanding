@@ -144,7 +144,7 @@
         display: flex;
         justify-content: center;
         &-left {
-            margin-right: 25px;
+            margin-right: 40px;
             &:hover {
                 cursor: pointer;
             }
@@ -154,7 +154,13 @@
                 cursor: pointer;
             }
         }
-        
+
+    }
+    .main__vector .swiper-button-next {
+        position: relative;
+       }
+    .main__vector .swiper-button-prev {
+        position: relative;
     }
    
     &__reviews-wrap {

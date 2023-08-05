@@ -221,7 +221,7 @@
     .main {
         padding: 51px 10px 54px 10px;
         &__wrapper {
-            height: 100vh;
+            // height: 100vh;
         }
         &__service {
             padding: 40px 20px 20px 20px;
@@ -241,6 +241,12 @@
             &-subtitle {
                 font-size: 18px;
             }
+        }
+        .swiper-tablet {
+            display: none;
+        }
+        .swiper-mobile {
+            display: block;
         }
        
     }
@@ -321,7 +327,9 @@
             margin-right: 15px;
            }
         }
-  }
+      
+    }
+  
 }
 
 @media(max-width: 376px) {
@@ -374,4 +382,5 @@
             }
         }
     }
+
 }
