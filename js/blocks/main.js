@@ -1,19 +1,21 @@
 function main(){
  
     let swiper = new Swiper(".mySwiper", {
+        // loop: true,
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".main__reviews-descr .swiper-button-next",
+          prevEl: ".main__reviews-descr .swiper-button-prev",
         },
       });
 
     let swiperService = new Swiper(".myswiperService ", {
+        // loop: true,
         navigation: {
-         nextEl: ".swiperService-button-next",
-         prevEl: ".swiperService-button-prev",
+         nextEl: ".main__vector .swiper-button-next",
+         prevEl: ".main__vector .swiper-button-prev",
        },
       });
     
-
+  
    
 }
