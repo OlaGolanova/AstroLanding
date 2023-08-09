@@ -57,7 +57,22 @@
                 }
             }
         }
+        .popup {
+            &__item {
+                width: 700px;
+                padding: 70px 40px 70px 50px;
+                &_descr {
+                  
+                    margin-left: 20px;
+                &_sub-descr {
+                    padding: 10px 50px 10px 50px;
+                }   
+            }
+        }
+    }
+  
 }
+
 
 @media(max-width: 1024px) {
     .promo {
@@ -98,6 +113,7 @@
         }
         
     }
+
     
 }
 @media(max-width: 940px) {
@@ -204,6 +220,23 @@
             }
         }
     }
+
+        .popup {
+        &__item {
+            width: 480px;
+            padding: 30px 30px 70px 30px;
+            &_wrap {
+                flex-direction: column;
+            }
+            &_descr {
+                width: 100%;
+            }
+            &_sub-descr {
+                padding: 10px 20px 10px 20px;
+            }
+    }
+
+}
 }
 
 @media(max-width: 640px){
@@ -304,9 +337,9 @@
         }
       
     }
- 
-  
+
 }
+  
 
 @media(max-width: 376px) {
     header {
