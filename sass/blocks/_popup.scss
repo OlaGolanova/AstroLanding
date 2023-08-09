@@ -141,6 +141,10 @@
             }
             .whatsapp {
                 position: relative;
+                transition: all 1s;
+                &:hover{
+                    scale: 1.2;
+                }
                 &::after {
                     content: "";
                     position: absolute;
@@ -153,6 +157,10 @@
             }  
             .telegram {
                 position: relative;
+                transition: all 1s;
+                &:hover{
+                    scale: 1.2;
+                }
                 &::after {
                     content: "";
                     position: absolute;
@@ -165,6 +173,10 @@
             }
             .instagram {
                 position: relative;
+                transition: all 1s;
+                &:hover{
+                    scale: 1.2;
+                }
                 &::after {
                     content: "";
                     position: absolute;
@@ -177,6 +189,10 @@
             }
             .vkontakte {
                 position: relative;
+                transition: all 1s;
+                &:hover{
+                    scale: 1.2;
+                }
                 &::after {
                     content: "";
                     position: absolute;
