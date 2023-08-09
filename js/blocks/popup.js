@@ -57,4 +57,19 @@ function popup(){
             document.body.style.overflow = '';
         });
     });
+
+
+
+    popups.forEach(function(item,i){
+        item.addEventListener('click', function(){
+            popups[i].style.display = 'none';
+            document.body.style.overflow = '';
+        });
+    });
+    popups.forEach(function(item,i){
+        item.addEventListener('click', function(){
+            popups[i].style.display = 'none';
+            document.body.style.overflow = '';
+        });
+    });
 }
