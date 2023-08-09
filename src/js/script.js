@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
     popup();
     window.addEventListener('resize', () => {
         fix100vh();
-        findHeight();
+        // findHeight();
     })
 });
 function fix100vh() {
