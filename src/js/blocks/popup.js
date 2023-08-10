@@ -59,7 +59,6 @@ function popup(){
     });
 
 
-
     popups.forEach(function(item,i){
         item.addEventListener('click', function(){
             popups[i].style.display = 'none';
