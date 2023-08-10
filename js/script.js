@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     rotate();
     main();
     popup();
+    reviews();
     window.addEventListener('resize', () => {
         fix100vh();
         // findHeight();
