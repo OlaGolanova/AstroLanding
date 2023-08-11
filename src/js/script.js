@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     main();
     popup();
     reviews();
+    burgerMenu();
     window.addEventListener('resize', () => {
         fix100vh();
         // findHeight();

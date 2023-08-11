@@ -75,6 +75,179 @@
 
 
 @media(max-width: 1024px) {
+    .header_laptop {
+        display: none;
+    }
+    .header_mobile {
+    display: block;
+    position: relative;
+    height: 80px;
+    z-index: 25;
+    .nav_mobile{
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background-color: #000000;
+        z-index: 20;
+        .hamburger {
+            position: fixed;
+            z-index: 20;
+            right: 5%;
+            top: 3%;
+            transform: translateY(-50%);
+            width: 26px;
+            height: 12px;
+            span {
+                display: block;
+                height: 5px;
+                width: 100%;
+                background: $golden-gradient;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                margin-bottom: 2px;
+                transition: 0.5s all;
+                &:hover {
+                    background: $golden-gradient-hover;
+                }
+                &:active {
+                    background: $golden-gradient-active;
+                }
+            }
+            &_active {
+                span {
+                    margin-bottom: -5px;
+                    &:nth-child(1){
+                        border-top-right-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    &:nth-child(3){
+                        border-top-right-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        transform: translateY(3px) rotate(45deg);
+                    }
+                }
+            }
+        }
+       
+    }
+    .menu {
+        position: fixed;
+        z-index: 21;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(0,0,0, .8);
+        transition: 0.6s all;
+        &_active {
+            left: 0;
+        }
+        &__item {
+            padding-right: 0;
+            border: none;
+            margin: 25px 0;
+            text-transform: uppercase;
+            font-size: 20px;
+            &:last-child {
+                margin: 50px 0;
+            }
+            &-contacts {
+                position: relative;
+                display: flex;
+                align-items: center;
+                left: 10px;
+                scale: 1.5;
+           
+                a {
+                    display: block;
+                    text-decoration: none;
+                    margin-right: 46px;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                }
+                .whatsapp {
+                    position: relative;
+                    transition: all 1s;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: -13px;
+                        right: 0px;
+                        width: 27px;
+                        height: 27px;
+                        background: url("../icons/wa.svg") center  no-repeat;
+                    }
+                }  
+                .telegram {
+                    position: relative;
+                    transition: all 1s;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: -13px;
+                        right: 0px;
+                        width: 27px;
+                        height: 27px;
+                        background: url("../icons/tg.svg") center  no-repeat;
+                    }
+                }
+                .instagram {
+                    position: relative;
+                    transition: all 1s;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: -13px;
+                        right: 0px;
+                        width: 27px;
+                        height: 27px;
+                        background: url("../icons/ig.svg") center  no-repeat;
+                    }
+                }
+                .vkontakte {
+                    position: relative;
+                    transition: all 1s;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: -13px;
+                        right: 0px;
+                        width: 27px;
+                        height: 27px;
+                        background: url("../icons/vk.svg") center  no-repeat;
+                    }
+                }
+            } 
+           
+        }  
+        &__link{
+            color: #FFEBBA;
+                &:active {
+                    background-color: #FFEBBA;
+                    background-image: linear-gradient(100deg, #FFEBBA, #F0C966);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                &:hover{
+                    background-color: #FFEBBA;
+                    background-image: linear-gradient(100deg, #FFEBBA, #F0C966);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+
     .promo {
   
         &__planet_pink {
@@ -112,9 +285,7 @@
             background: url("../img/about/photoMobile.jpg") center (center/cover) no-repeat;
         }
         
-    }
-
-    
+    } 
 }
 @media(max-width: 940px) {
     .promo {
@@ -137,9 +308,6 @@
         padding-bottom: 60px;
         &__bg-ring {
             background: url("../icons/zodiacring.svg") center (center/cover) no-repeat;
-        }
-        &__wrapper {
-            // min-height: 750px;
         }
         &__service-wrap {
             margin-top: 0px;
@@ -205,7 +373,6 @@
         } 
     }
     footer {
-
         & .contacts {
             padding-bottom: 20px;
             margin-top: 0;
@@ -214,7 +381,7 @@
                 flex-direction: column;
                  max-width: 419px;
                 & a {
-                    margin-top: 10px;
+                    margin-top: 40px;
                     margin-right: 0px;
                 }
             }
@@ -240,13 +407,6 @@
 }
 
 @media(max-width: 640px){
-    header {
-        .nav {
-            &__link {
-                margin-right: 35px;
-            } 
-        } 
-    }
     .promo {
         &__planet_pink {
             width: 45vw;
@@ -259,9 +419,6 @@
    }
     .main {
         padding: 51px 10px 54px 10px;
-        &__wrapper {
-            // height: 100vh;
-        }
         &__service {
             padding: 40px 20px 20px 20px;
             margin: 30px 15px 0 15px;
@@ -298,16 +455,7 @@
     
 }
 
-
-
 @media(max-width: 470px) {
-    header {
-        .nav {
-            &__link {
-                margin-right: 20px;
-            } 
-        } 
-    }
     .promo {
         padding: 147px 0px 94px 0px;
         &__planet_pink {
@@ -323,7 +471,6 @@
             }
        }
    }
-
     .main {
         &__service {
             width: 100%;
@@ -341,20 +488,11 @@
             margin-right: 15px;
            }
         }
-      
     }
-
 }
   
 
 @media(max-width: 376px) {
-    header {
-        .nav {
-            &__link {
-                margin-right: 15px;
-            } 
-        } 
-    }
     .promo {
         padding: 125px 0px 89px 0px;
         &__planet_pink {
@@ -386,5 +524,4 @@
             }
         }
     }
-
 }

@@ -1,7 +1,6 @@
-header {
+.header_laptop {
     position: relative;
-    min-height: 93px;
-    background:#000;
+    height: 93px;
     .nav {
         position: fixed;
         min-height: 93px;
@@ -34,7 +33,12 @@ header {
         }  
     } 
 }
- 
+.header_mobile {
+    display: none;
+   
+}
+
+
 @keyframes nav__link_opacity {
     0% {
         opacity: 0;
@@ -43,4 +47,3 @@ header {
         opacity: 1;
     }
 }
-

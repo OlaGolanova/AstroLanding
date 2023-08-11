@@ -13,15 +13,35 @@
     
 </head>
 <body>
-
-    <header >
+    <header class="header_laptop">
         <nav class="nav">
-                <a href="#" class="nav__link">Услуги</a>
-                <a href="#" class="nav__link">Отзывы</a>
-                <a href="#" class="nav__link">Обо мне</a>
-                <a href="#" class="nav__link">Контакты</a>
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#reviews" class="nav__link">Отзывы</a>
+                <a href="#about" class="nav__link">Обо мне</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
         </nav>
     </header>
+ <header class="header_mobile">
+    <div class="nav_mobile">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+        <div class="menu">
+            <div  class="menu__item"><a href="#services" class="menu__link">Услуги</a></div>
+            <div class="menu__item"><a href="#reviews" class="menu__link">Отзывы</a></div>
+            <div class="menu__item"><a href="#about" class="menu__link">Обо мне</a></div>
+            <div class="menu__item menu__item-contacts">
+                <a href="https://wa.me/79615930359" target="_blank" class="whatsapp"></a>
+                <a href="https://telegram.me/alinaiastro" target="_blank" class="telegram"></a>
+                <a href="https://instagram.com/eli_naastro" target="_blank" class="instagram"></a>
+                <a href="https://vk.com/club221855546" target="_blank" class="vkontakte"></a>
+            </div>
+        </div>
+ </header>
+   
     <section class="promo">
           <div class="promo__stars"></div>
           <img class="promo__planet_pink" src="./img/promo/pinkPlanet.png" alt="Розовая планета">
@@ -38,7 +58,7 @@
             </div>
           </div>
     </section>
-    <section class="main">
+    <section class="main" id="services">
         <div class="main__bg"></div>
         <div class="main__bg-ring"></div>
         <div class="container">
@@ -80,7 +100,7 @@
                     <div class="main__wrapper">
                         <div class="main__service-wrap main__service-twoslide">
                             <div class="main__service main__service-laptop">
-                                <h3 class="main__service-title">Синастрия. Совместимость пары</h3>
+                                <h3 class="main__service-title">СОВМЕСТИМОСТЬ ИЛИ СИНАСТРИЯ</h3>
                                 <div class="main__service-subtitle">Партнерские отношения, партнёры по браку.</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
@@ -88,16 +108,16 @@
                                 </div>
                             </div>
                             <div class="main__service main__service-laptop">
-                                <h3 class="main__service-title">Соляр</h3>
-                                <div class="main__service-subtitle">Соляр. Краткое описание.</div>
+                                <h3 class="main__service-title">ФОРМУЛА ДУШИ</h3>
+                                <div class="main__service-subtitle"> Краткое описание ?</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
                                     <div class="main__service-more main__service-more-laptop">Подробнее</div>
                                 </div>
                             </div>
                             <div class="main__service main__service-laptop">
-                                <h3 class="main__service-title">Прогностика</h3>
-                                <div class="main__service-subtitle">Прогностика. Крастоке описание</div>
+                                <h3 class="main__service-title">ВСЁ О ВАС</h3>
+                                <div class="main__service-subtitle">ВСЁ О ВАС. Крастоке описание</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
                                     <div class="main__service-more main__service-more-laptop">Подробнее</div>
@@ -110,7 +130,7 @@
                 </div>
             </div>
         
-            <div class="swiper myswiperService swiper-tablet main__hidden">
+            <div class="swiper myswiperService swiper-tablet">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="main__wrapper">
@@ -146,7 +166,7 @@
                                 </div>
                             </div>  
                             <div class="main__service main__service-tablet">
-                                <h3 class="main__service-title">Синастрия. Совместимость пары</h3>
+                                <h3 class="main__service-title">СОВМЕСТИМОСТЬ ИЛИ СИНАСТРИЯ</h3>
                                 <div class="main__service-subtitle">Партнерские отношения, партнёры по браку.</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
@@ -161,15 +181,15 @@
                     <div class="main__wrapper">
                         <div class="main__service-wrap main__service-threeslide">
                             <div class="main__service main__service-tablet">
-                                <h3 class="main__service-title">Соляр</h3>
-                                <div class="main__service-subtitle">Соляр. Краткое описание.</div>
+                                <h3 class="main__service-title">ФОРМУЛА ДУШИ</h3>
+                                <div class="main__service-subtitle">Краткое описание ?</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
                                     <div class="main__service-more main__service-more-tablet">Подробнее</div>
                                 </div>
                             </div>
                             <div class="main__service main__service-tablet">
-                                <h3 class="main__service-title">Прогностика</h3>
+                                <h3 class="main__service-title">ВСЁ О ВАС</h3>
                                 <div class="main__service-subtitle">Прогностика. Крастоке описание</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
@@ -183,7 +203,7 @@
                 </div>
             </div>
 
-            <div class="swiper myswiperService swiper-mobile main__hidden ">
+            <div class="swiper myswiperService swiper-mobile">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="main__wrapper">
@@ -232,7 +252,7 @@
                     <div class="main__wrapper">
                         <div class="main__service-wrap main__service-threeslide">
                             <div class="main__service main__service-mobile">
-                                <h3 class="main__service-title">Синастрия. Совместимость пары</h3>
+                                <h3 class="main__service-title">СОВМЕСТИМОСТЬ ИЛИ СИНАСТРИЯ</h3>
                                 <div class="main__service-subtitle">Партнерские отношения, партнёры по браку.</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
@@ -246,8 +266,8 @@
                     <div class="main__wrapper">
                         <div class="main__service-wrap main__service-threeslide">
                             <div class="main__service main__service-mobile">
-                                <h3 class="main__service-title">Соляр</h3>
-                                <div class="main__service-subtitle">Соляр. Краткое описание.</div>
+                                <h3 class="main__service-title">ФОРМУЛА ДУШИ</h3>
+                                <div class="main__service-subtitle">Краткое описание ?</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
                                     <div class="main__service-more main__service-more-mobile">Подробнее</div>
@@ -260,7 +280,7 @@
                     <div class="main__wrapper">
                         <div class="main__service-wrap main__service-threeslide">
                             <div class="main__service main__service-mobile">
-                                <h3 class="main__service-title">Прогностика</h3>
+                                <h3 class="main__service-title">ВСЁ О ВАС</h3>
                                 <div class="main__service-subtitle">Прогностика. Крастоке описание</div>
                                 <div class="main__service-wrapper">
                                     <div class="main__service-price">3 000&#8381;</div>
@@ -283,7 +303,7 @@
                     <path d="M11.4677 18.126L15.8167 10.5073H0.0395508V7.9677H15.8167L11.4677 0.348946L25.4354 9.23749L11.4677 18.126Z" fill="white"/>
                 </svg>
             </div>
-            <img src="./icons/separator.svg" alt="Раздел" class="main__separator">
+            <img src="./icons/separator.svg" alt="Раздел" class="main__separator" id="reviews">
 
             <h2 class="title main__title_color main__title_margintop-reviews">Отзывы</h2>
 
@@ -350,7 +370,7 @@
                 </div>
             </div>
             
-            <div class="swiper mySwiper swiper-rev-mobile main__hidden">
+            <div class="swiper mySwiper swiper-rev-mobile">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="main__reviews-wrap">
@@ -438,7 +458,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="title about__title_color">Обо мне</h2>
             <div class="about__text-wrapper">
@@ -469,7 +489,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer id="contacts">
         <div class="container">
             <h2 class="title title_color">Контакты</h2>
             <div class="wrapper">
@@ -628,30 +648,38 @@
     <div class="popup hidden fade">
         <div class="popup__item">
             <div class="popup__item_wrap-title">
-                <h2 class="popup__item_title">Финансовая сфера.<br>
-                    Способы привлечения денег.</h2>
+                <h2 class="popup__item_title">СОВМЕСТИМОСТЬ ИЛИ СИНАСТРИЯ.</h2>
                 <div type="button" class="popup__item_btn-close">&times</div>
             </div>
             <div class="popup__item_wrap">
                 <img src="./img/main/popup/money.png" alt="Мешочек с деньгами">
-                <div class="popup__item_descr"> Как найти правильный вектор в денежной сфере и самореализации? Я постараюсь вам подсказать как нужно действовать для достижения результата.</div>
+                <div class="popup__item_descr"> Если вы хотите узнать, подходит ли вам человек, стоит ли начинать с ним отношения или принимать предложение о свадьбе? А, возможно, существующие отношения (брак) доставляют страдания? </div>
             </div>
-            <h2 class="popup__item_subtitle">Что вы узнаете из консультации?</h2>
+            <h2 class="popup__item_subtitle">После консультации совместимости партнеров вы узнаете:</h2>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Что нужно делать чтобы обрести высокий и стабильный заработок.</p>
-            </div>
-            <div class="popup__item_sub-descr">
-                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Что на подсознательном уровне мешает зарабатывать.</p>
+                <p>Характер партнера (слабые и сильные стороны, сценарии поведения, основные черты).</p>
             </div>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Особенности заработка до и после 35 лет.</p>
+                <p>Конфликтность (причины конфликтов и насколько они серьезны).</p>
             </div>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p> Через какие профессиональные направления будут идти больше денег.</p>
+                <p>Идеальные образ партнера в карте каждого и насколько есть соответствие образу.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Совместимость в быту, в работе, в делах.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Сексуальная совместимость (а так же сексуальные потребности).</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Способы гармонизации и коррекции отношений
+                    выводы по совместимости.</p>
             </div>
             <div class="popup__footer">
                 <div class="popup__footer-price">Стоимость: 3 000&#8381;</div>
@@ -668,30 +696,38 @@
     <div class="popup hidden fade">
         <div class="popup__item">
             <div class="popup__item_wrap-title">
-                <h2 class="popup__item_title">Финансовая сфера.<br>
-                    Способы привлечения денег.</h2>
+                <h2 class="popup__item_title">ФОРМУЛА ДУШИ. <br>
+                    Рецепт для достижения счастья.</h2>
                 <div type="button" class="popup__item_btn-close">&times</div>
             </div>
             <div class="popup__item_wrap">
                 <img src="./img/main/popup/money.png" alt="Мешочек с деньгами">
-                <div class="popup__item_descr"> Как найти правильный вектор в денежной сфере и самореализации? Я постараюсь вам подсказать как нужно действовать для достижения результата.</div>
+                <div class="popup__item_descr"> Формула Души строится на основе цепочек диспозиторов (управителей знаков) по владению. Она указывает на главные планеты Солнечной системы, которые отражают Дух человека, являются основными драйверами развития на протяжении всей его жизни.</div>
             </div>
-            <h2 class="popup__item_subtitle">Что вы узнаете из консультации?</h2>
+            <h2 class="popup__item_subtitle">По комбинации Души мы  можем понять:</h2>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Что нужно делать чтобы обрести высокий и стабильный заработок.</p>
-            </div>
-            <div class="popup__item_sub-descr">
-                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Что на подсознательном уровне мешает зарабатывать.</p>
+                <p>О наилучших вариантах реализации человека, об энергетике и качествах личности, благодаря которым возможно добиться желаемого.</p>
             </div>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Особенности заработка до и после 35 лет.</p>
+                <p> Помогает разобраться в себе и своей жизни, понять, что нужно делать в первую очередь, а что подтянется само собой.</p>
             </div>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p> Через какие профессиональные направления будут идти больше денег.</p>
+                <p>Планетные ряды в Формуле Души указывают на кратчайший путь к себе; это чудесная навигация для жизни и наилучший способ познания своих талантов и предназначения.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Показывает возможные проблемы со здоровьем. Это делается по скрытым связкам планет, которые не видны в натальной карте.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Особую эффективность Формула Души показывает в работе с детскими картами. Это помогает в выборе различных способов развития талантов, видов спорта, методик обучения для лучшего усвоения материала. </p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Имеются ли показатели личного денежного канала.</p>
             </div>
             <div class="popup__footer">
                 <div class="popup__footer-price">Стоимость: 3 000&#8381;</div>
@@ -709,30 +745,66 @@
     <div class="popup hidden fade">
         <div class="popup__item">
             <div class="popup__item_wrap-title">
-                <h2 class="popup__item_title">Финансовая сфера.<br>
-                    Способы привлечения денег.</h2>
+                <h2 class="popup__item_title">ВСЁ О ВАС<br>
+                    составление и разбор натальной карты.</h2>
                 <div type="button" class="popup__item_btn-close">&times</div>
             </div>
             <div class="popup__item_wrap">
                 <img src="./img/main/popup/money.png" alt="Мешочек с деньгами">
-                <div class="popup__item_descr"> Как найти правильный вектор в денежной сфере и самореализации? Я постараюсь вам подсказать как нужно действовать для достижения результата.</div>
+                <div class="popup__item_descr">  В процессе консультации вы получаете не только ценную для себя информацию, но и ясное понимание, как можно её использовать для улучшения различных сфер жизни.</div>
             </div>
-            <h2 class="popup__item_subtitle">Что вы узнаете из консультации?</h2>
+            <h2 class="popup__item_subtitle">На консультации разбираем следующие темы:</h2>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Что нужно делать чтобы обрести высокий и стабильный заработок.</p>
-            </div>
-            <div class="popup__item_sub-descr">
-                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Что на подсознательном уровне мешает зарабатывать.</p>
+                <p>Ваши сильные качества, и как их развивать.</p>
             </div>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p>Особенности заработка до и после 35 лет.</p>
+                <p>Ваши слабые стороны, и как с ними работать.</p>
             </div>
             <div class="popup__item_sub-descr">
                 <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
-                <p> Через какие профессиональные направления будут идти больше денег.</p>
+                <p>Как увеличить свои доходы.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Цель жизни, предназначение в конкретный период жизни.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Личные взаимоотношения и семейное благополучие (зоны конфликта, зоны для проработки).</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Через какие сферы можно получить максимальный доход.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Отношения с детьми и родителями.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Тотемное животное и действия, приносящие удачу в профессиональной деятельности.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Родовые программы и их влияние на вашу жизнь.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p>Ваше везение и уровень удачи.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Ваши личные действия для поддержания ресурса.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> В каком направлении двигаться по жизни.</p>
+            </div>
+            <div class="popup__item_sub-descr">
+                <img src="./icons/popup-rhombus.svg" alt="Фиолетовый ромб">
+                <p> Кармические задачи - те сферы, где стоят наиболее важные задачи для выхода на новый уровень развития.</p>
             </div>
             <div class="popup__footer">
                 <div class="popup__footer-price">Стоимость: 3 000&#8381;</div>
