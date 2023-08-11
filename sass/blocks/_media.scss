@@ -21,7 +21,7 @@
     .main {
         padding: 80px 0 27px 0;
             &__service {
-                align-items:center;
+                // align-items:center;
                 padding: 0 20px 0px 20px;
                 width: 300px;
                 // height: 270px;
@@ -433,12 +433,17 @@
                 margin-top: 62px;
                 display: flex;
                 justify-content: space-between;
+                justify-content: center;
             }
             &-price {
                 margin-right: 150px;
             }
+            &-title{
+                text-align: center;
+            }
             &-subtitle {
                 font-size: 18px;
+                text-align: center;
             }
         }
         .swiper-tablet {
