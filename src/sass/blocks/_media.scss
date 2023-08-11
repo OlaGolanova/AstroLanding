@@ -58,7 +58,9 @@
             }
         }
         .popup {
+            height: auto;
             &__item {
+               
                 width: 700px;
                 padding: 70px 40px 70px 50px;
                 &_descr {
