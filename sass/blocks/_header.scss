@@ -1,6 +1,7 @@
 .header_laptop {
     position: relative;
-    height: 93px;
+    min-height: 93px;
+    background: #000000;
     .nav {
         position: fixed;
         min-height: 93px;
