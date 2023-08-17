@@ -6,6 +6,6 @@
 ## Демо
 https://OlaGolanova.github.io/AstroLanding
 
-...проект в работе...
+
 
 
