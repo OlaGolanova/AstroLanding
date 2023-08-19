@@ -64,7 +64,6 @@
                 width: 90%;
                 padding: 70px 40px 70px 50px;
                 &_descr {
-                  
                     margin-left: 20px;
                 &_sub-descr {
                     padding: 10px 50px 10px 50px;
@@ -289,6 +288,19 @@
         }
         
     } 
+    .popup{
+        &__item{
+            &_wrap {
+                img {
+                    width: 40%;
+                }
+            }
+        &_descr{
+            margin-top: 30px;
+            margin-left: 0px;
+        } 
+        }
+    }
 }
 @media(max-width: 940px) {
     .promo {
@@ -395,9 +407,7 @@
         &__item {
             width: 90%;
             padding: 30px 30px 70px 30px;
-            &_wrap {
-                flex-direction: column;
-            }
+           
             &_descr {
                 width: 100%;
             }
