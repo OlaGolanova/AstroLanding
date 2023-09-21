@@ -59,8 +59,10 @@
             border:none;
             color:#fff;
             font-size: 40px;
+            cursor: pointer;
             &:hover{
                 opacity: 0.7;
+                cursor: pointer;
             }
         }
         &_wrap {
