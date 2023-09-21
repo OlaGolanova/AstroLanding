@@ -529,6 +529,9 @@
             margin-right: 15px;
            }
         }
+        // &__reviews-img {
+        //     display: none!important;
+        // }
     }
     .popup {
         &__item {
@@ -574,6 +577,11 @@
                     font-size: 24px;
                 }
             }
+        }
+    }
+    .main {
+        &__reviews-img {
+            display: none!important;
         }
     }
     footer {
